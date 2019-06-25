@@ -1,0 +1,32 @@
+{
+    "flexApiServerConfig": {
+        "enabled": true,
+        "port": 9090,
+        "donateUrl": "https://google.com",
+        "adsApiUrl": "http://192.168.1.207:9091/FlexAds",
+        "vkApiToken": "abcdef123",
+
+        "adsRepoProvider": "postgres",
+        "adsRepoConfig": {
+            "dbHost": "127.0.0.1",
+            "dbName": "flexadsdb",
+            "dbUser": "flexads",
+            "dbPass": "1337",
+            "dbSslMode": "disable"
+        }
+    },
+
+    "flexAdsServerConfig": {
+        "enabled": true,
+        "port": 9091,
+
+        "adsRepoProvider": "postgres",
+        "adsRepoConfig": {
+            "dbHost": "127.0.0.1",
+            "dbName": "flexadsdb",
+            "dbUser": "flexads",
+            "dbPass": "1337",
+            "dbSslMode": "disable"
+        }
+    }
+}

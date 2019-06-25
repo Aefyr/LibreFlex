@@ -1,0 +1,26 @@
+{
+    "flexApiServerConfig":{
+        "enabled": true,
+        "port": 9090,
+        "donateUrl": "https://google.com",
+        "adsApiUrl": "http://192.168.1.207:9091/FlexAds",
+        "vkApiToken": "abcdef123",
+
+        "adsRepoProvider": "dummy",
+        "adsRepoConfig":{
+            "dummyBanner": "https://flexvk.es3n.in/wtf.png",
+            "dummyTarget": "https://google.com"
+        }
+    },
+    
+    "flexAdsServerConfig":{
+        "enabled": true,
+        "port": 9091, 
+
+        "adsRepoProvider": "dummy",
+        "adsRepoConfig":{
+            "dummyBanner": "https://flexvk.es3n.in/wtf.png",
+            "dummyTarget": "https://google.com"
+        }
+    }
+}

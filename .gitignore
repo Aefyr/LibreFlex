@@ -1,0 +1,5 @@
+/pkg
+config.json
+debug
+/*.exe
+/main
