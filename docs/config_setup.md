@@ -56,7 +56,7 @@ This is a config for the FlexAds server
 
 ## Ads repo provider
 Some of the entities above have **adsRepoProvider** and **adsRepoConfig** fields, those are responsible for providing ads. At the moment, there are 2 available providers:
-* [dummy](dummy_setup)
-* [postgres](postgres_setup)
+* [dummy](dummy_setup.md)
+* [postgres](postgres_setup.md)
 
 Check out their respective articles to find out, how to set them up.
